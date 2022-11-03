@@ -1,0 +1,92 @@
+body {
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-family: 'roboto', sans-serif;
+    font-size: 16px;
+    background-color: rgb(255, 250, 245);
+    color:rgb(71, 69, 69);
+  
+}
+h3 {
+    text-decoration: underline;
+}
+.a1 {
+    border-bottom: 2px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    padding: 20px;
+    background-color:bisque;
+}
+.a1:hover {
+    background: rgb(255, 192, 114);
+}
+.a2 {
+    border-bottom: 2px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    padding: 20px;
+    background-color:bisque;
+}
+
+/* .a2:hover {
+    background: rgb(255, 192, 114); */
+
+
+.lyba {
+    border-width: 5px;
+    border-style: 5px;
+    border-color: blue;
+   border-radius: 28px; 
+   box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+a {
+ color: rgb(75, 75, 75);
+ text-decoration: none;
+}
+a:hover {
+    color: rgb(250, 164, 4);
+}
+.btn {
+    background: rgb(252, 213, 142);
+   border: none;
+   border-radius: 5px;
+   padding: 5px 5px;
+   cursor: pointer;
+   font-family: inherit;
+}
+/* .table {
+    width: 100%;
+} */
+.table td:hover {
+    background: rgb(255, 192, 114);
+}
+.form h4 {
+ text-align: center;
+}
+
+/* .form-row .form-group {
+ display: inline-block;
+} */
+.form-group label {
+display: block;
+font-size: 14px;
+color: rgb(75, 75, 75);
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background:transparent;
+    border-bottom: 1px solid rgb(71, 69, 69);
+    color: rgb(71, 69, 69);
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+    
+}
