@@ -88,5 +88,26 @@ color: rgb(75, 75, 75);
     padding: 15px 0 10px;
     outline: none;
     font-family: inherit;
-    
+}
+
+
+.container {
+    max-width: 750px;
+    padding-top: 20px;
+    margin: auto;
+}
+
+.box {
+padding: 20px;
+background: red;
+font-size: 2em;
+}
+
+
+@media (max-width: 650px) {
+.container {
+  font-size: 1.5rem;
+  padding: 10px;
+  text-align: center;
+}
 }
